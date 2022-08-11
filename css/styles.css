@@ -1,0 +1,155 @@
+:root {
+    --text-color: #757575;
+    --white-color: #fff;
+    --title-color: #212121;
+    --accent-color: #2196f3;
+    --footer-bgc-color: #2f303a;
+    --hiro-button-hover:#188CE8;
+    --light-grey-color:#f5f4fa;
+    --header-logo-color:#000;
+}
+body {
+    font-family:Roboto, Raleway ,sans-serif;
+    color:var(--text-color);
+    background-color: var(--white-color);
+}
+.navigation-list,
+.contact-list {
+    list-style:none;
+    letter-spacing: 0.02em;
+}
+.contact-link {
+    color:var(--text-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+.navigation-list .navigation-link {
+    color: var(--title-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+.navigation-list .navigation-link:hover,
+.navigation-list .navigation-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+    color:var(--accent-color);
+}
+ .navigation-list .accent-navigation {
+ color:var(--accent-color);
+}
+.list-item {
+    list-style: none;
+}
+.button {
+    cursor: pointer;
+    color:var(--title-color);
+    background-color: var(--light-grey-color);
+    border: 0px;
+    font-family: Roboto, sens-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height:1.63;
+    letter-spacing: 0.03em;
+}
+.button:hover,
+.button:focus {
+    color:var(--white-color);
+    background-color: var(--accent-color);
+}
+.accent-button{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.header-logo {
+    color:var(--header-logo-color);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.accent {
+    color:var(--accent-color);
+}
+.hiro {
+    background-color: var(--footer-bgc-color);
+}
+.hiro-title {
+    color:var(--white-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height:1.36 ;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.hiro-button {
+    cursor: pointer;
+    font-family: Roboto, sens-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border: 0px;
+    letter-spacing: 0.06em;
+}
+.hiro-button:hover,
+.hiro-button:focus {
+    background-color: var(--hiro-button-hover);
+}
+.team {
+    background-color: var(--light-grey-color);
+}
+.caption {
+    color:var(--title-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.title {
+    color:var(--title-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+.advantage .title {
+    text-transform: uppercase;
+}
+.text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer {
+    background-color: var(--footer-bgc-color);
+}
+.footer-adress {
+    font-style: normal;
+}
+.footer-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer-link:hover {
+    color:var(--white-color);
+}
+.footer-logo {
+    text-decoration: none;
+    font-family: Raleway, sens-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    color:var(--white-color);
+    letter-spacing: 0.03em;
+}
