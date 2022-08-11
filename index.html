@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link 
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
       rel="stylesheet" 
     />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <body>
     <header class="header">
       <nav class="navigation">
@@ -26,7 +31,7 @@
       </nav>
       <ul class="contact-list">
         <li class="contact-list-item"><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li class="contact-list-item"><a class="contact-link" href="+tel:+380961111111">+38 096 111 11 11</a></li>
+        <li class="contact-list-item"><a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main class="main">
@@ -95,6 +100,7 @@
         <h2 class="caption">Наша команда</h2>
         <ul class="list">
           <li class="list-item">
+            <div class="team-content">
             <img class="img"
               src="./images/img.jpg"
               alt="Ігор Дем'яненко Продукт дизайнер"
@@ -102,8 +108,10 @@
             />
             <h3 class="title">Ігор Дем'яненко</h3>
             <p class="text" lang="en">Product Designer</p>
+            </div> 
           </li>
           <li class="list-item">
+            <div class="team-content">
             <img class="img"
               src="./images/img1.jpg"
               alt="Ольга Рєпіна Фронтенд розробник"
@@ -111,8 +119,10 @@
             />
             <h3 class="title">Ольга Рєпіна</h3>
             <p class="text" lang="en">Frontend Developer</p>
+            </div>  
           </li>
           <li class="list-item">
+            <div class="team-content">
             <img class="img"
               src="./images/img2.jpg"
               alt="Микола Тарасов Маркетолог"
@@ -120,8 +130,10 @@
             />
             <h3 class="title">Микола Тарасов</h3>
             <p class="text" lang="en">Marketing</p>
+            </div>  
           </li>
           <li class="list-item">
+            <div class="team-content">
             <img class="img"
               src="./images/img3.jpg"
               alt="Михайло Єрмаков Дизайнер"
@@ -129,6 +141,7 @@
             />
             <h3 class="title">Михайло Єрмаков</h3>
             <p class="text" lang="en">UI Designer</p>
+            </div>  
           </li>
         </ul>
       </section>
@@ -139,9 +152,9 @@
       </a>
       <address class="footer-adress">
         <ul class="footer-list">
-          <li class="list-item"><a class="footer-link" href="/">м. Київ, пр-т Лесі Українки, 26</a></li>
+          <li class="list-item"><a class="footer-link" href="/"><span class="footer-span">м. Київ, пр-т Лесі Українки, 26</span></a></li>
           <li class="list-item"><a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="list-item"><a class="footer-link" href="+tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="list-item"><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
