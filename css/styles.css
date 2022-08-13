@@ -9,6 +9,8 @@
   --light-grey-color: #f5f4fa;
   --header-logo-color: #000;
   --footer-link-color: #ffffff99;
+  --portfolio-border-color: #eeeeee;
+  --header-border-color: #ececec;
 }
 /* боді */
 body {
@@ -41,6 +43,9 @@ ul {
   margin-right: auto;
 }
 /* хедер */
+.header {
+  border-bottom: 1px solid var(--header-border-color);
+}
 .header-logo {
   color: var(--header-logo-color);
   text-decoration: none;
@@ -106,8 +111,7 @@ ul {
   display: flex;
   padding-top: 50px;
 }
-.list-item,
-.list-item-advantage {
+.list-item {
   list-style: none;
 }
 .list-button {
@@ -131,15 +135,33 @@ ul {
 .contact-list-item {
   margin-right: 50px;
 }
-/* секція мейн */
+/*ітеми портфоліо */
+.item-portfolio:nth-child(-n + 6) {
+  margin-bottom: 30px;
+}
 .item-portfolio:nth-child(3n + 3) {
   margin-right: 0px;
 }
-.item-portfolio .title {
+/* .item-portfolio .title { пописав для бордер-портфоліо
   padding-top: 20px;
-}
+  padding-left: 24px;
+} */
 .item-portfolio .text {
-  padding-top: 4px;
+  margin-top: 4px;
+  /* padding-left: 24px; пописав для бордер-портфоліо
+   padding-bottom: 20px; пописав для бордер-портфоліо */
+}
+/* бордер портфоліо */
+.border-portfolio {
+  border-left: 1px solid var(--portfolio-border-color);
+  border-right: 1px solid var(--portfolio-border-color);
+  border-bottom: 1px solid var(--portfolio-border-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+.img {
+  display: block;
 }
 /* налаштування кнопок */
 .button {
@@ -205,6 +227,10 @@ ul {
 .hiro-button:focus {
   background-color: var(--hiro-button-hover);
 }
+/* переваги */
+.advantage .list-item {
+  width: 25%;
+}
 /* секція команда */
 .team {
   background-color: var(--light-grey-color);
@@ -246,7 +272,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 /* секція з відступами */
 .section:nth-child(odd) {
