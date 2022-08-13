@@ -55,6 +55,7 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
+  outline: none;
 }
 .accent {
   color: var(--accent-color);
@@ -79,6 +80,7 @@ ul {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
+  outline: none;
 }
 /* налаштування секції навігації */
 .navigation-list .navigation-link {
@@ -90,6 +92,7 @@ ul {
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
+  outline: none;
 }
 .navigation-list .navigation-link:hover,
 .navigation-list .navigation-link:focus,
@@ -110,6 +113,7 @@ ul {
 .list {
   display: flex;
   padding-top: 50px;
+  align-items: flex-end;
 }
 .list-item {
   list-style: none;
@@ -179,6 +183,7 @@ ul {
   padding-right: 22px;
   padding-bottom: 6px;
   border-radius: 4px;
+  outline: none;
 }
 .button:hover,
 .button:focus {
@@ -222,6 +227,7 @@ ul {
   padding-right: 32px;
   padding-bottom: 10px;
   border-radius: 4px;
+  outline: none;
 }
 .hiro-button:hover,
 .hiro-button:focus {
@@ -311,9 +317,10 @@ ul {
 }
 .footer-link:hover,
 .footer-link:focus,
-.footer-link .footer-span:hover,
-.footer-link .footer-span:focus {
+.footer-link .footer-span:focus,
+.footer-link .footer-span:hover {
   color: var(--accent-color);
+  outline: none;
 }
 .footer-logo {
   text-decoration: none;
@@ -323,6 +330,7 @@ ul {
   line-height: 1.19;
   color: var(--white-color);
   letter-spacing: 0.03em;
-  padding-top: 60px;
+  margin-top: 60px;
   display: inline-block;
+  outline: none;
 }
