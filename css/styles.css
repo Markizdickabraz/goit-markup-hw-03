@@ -55,7 +55,6 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
-  outline: none;
 }
 .accent {
   color: var(--accent-color);
@@ -80,7 +79,6 @@ ul {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  outline: none;
 }
 /* налаштування секції навігації */
 .navigation-list .navigation-link {
@@ -92,7 +90,6 @@ ul {
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
-  outline: none;
 }
 .navigation-list .navigation-link:hover,
 .navigation-list .navigation-link:focus,
@@ -112,8 +109,7 @@ ul {
 /* налаштування списку */
 .list {
   display: flex;
-  padding-top: 50px;
-  align-items: flex-end;
+  margin-top: 50px;
 }
 .list-item {
   list-style: none;
@@ -183,7 +179,6 @@ ul {
   padding-right: 22px;
   padding-bottom: 6px;
   border-radius: 4px;
-  outline: none;
 }
 .button:hover,
 .button:focus {
@@ -195,7 +190,7 @@ ul {
   background-color: var(--accent-color);
 }
 /* секція хіро */
-.hiro {
+.hiro-section {
   background-color: var(--footer-bgc-color);
   text-align: center;
   padding-top: 200px;
@@ -227,15 +222,21 @@ ul {
   padding-right: 32px;
   padding-bottom: 10px;
   border-radius: 4px;
-  outline: none;
 }
 .hiro-button:hover,
 .hiro-button:focus {
   background-color: var(--hiro-button-hover);
 }
 /* переваги */
+.advantage .list {
+  align-items: flex-start;
+}
 .advantage .list-item {
   width: 25%;
+}
+.working .list {
+  display: flex;
+  align-items: flex-end;
 }
 /* секція команда */
 .team {
@@ -281,6 +282,10 @@ ul {
   margin-top: 10px;
 }
 /* секція з відступами */
+/* .section {
+  margin-left: auto;
+  margin-right: auto;
+} */
 .section:nth-child(odd) {
   padding-top: 94px;
   padding-bottom: 47px;
@@ -295,10 +300,12 @@ ul {
 /* секція футер */
 .footer {
   background-color: var(--footer-bgc-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-adress {
   font-style: normal;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .footer-link {
   display: inline-block;
@@ -307,10 +314,10 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  padding-top: 9px;
 }
-.footer-list:last-child {
-  padding-bottom: 60px;
+.footer-list .list-item {
+  margin-right: 0;
+  margin-top: 9px;
 }
 .footer-link .footer-span {
   color: var(--white-color);
@@ -320,7 +327,6 @@ ul {
 .footer-link .footer-span:focus,
 .footer-link .footer-span:hover {
   color: var(--accent-color);
-  outline: none;
 }
 .footer-logo {
   text-decoration: none;
@@ -330,7 +336,5 @@ ul {
   line-height: 1.19;
   color: var(--white-color);
   letter-spacing: 0.03em;
-  margin-top: 60px;
   display: inline-block;
-  outline: none;
 }
