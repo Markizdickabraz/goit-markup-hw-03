@@ -55,6 +55,8 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .accent {
   color: var(--accent-color);
@@ -79,6 +81,8 @@ ul {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* налаштування секції навігації */
 .navigation-list .navigation-link {
@@ -118,14 +122,18 @@ ul {
   display: flex;
   justify-content: center;
 }
+.list-button .list-item {
+  margin-right: 8px;
+}
 .list-portfolio {
-  padding-top: 34px;
+  margin-top: 56px;
   display: flex;
   flex-wrap: wrap;
 }
 .list-item {
   margin-right: 30px;
 }
+.contact-list-item:last-child,
 .list-item:last-child {
   margin-right: 0px;
 }
@@ -136,6 +144,12 @@ ul {
   margin-right: 50px;
 }
 /*ітеми портфоліо */
+.item-portfolio .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 .item-portfolio:nth-child(-n + 6) {
   margin-bottom: 30px;
 }
@@ -159,6 +173,7 @@ ul {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
+  padding-right: 24px;
 }
 .img {
   display: block;
@@ -196,6 +211,9 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+.hiro-section .container {
+  width: 696px;
+}
 .hiro-title {
   color: var(--white-color);
   font-size: 44px;
@@ -228,9 +246,6 @@ ul {
   background-color: var(--hiro-button-hover);
 }
 /* переваги */
-.advantage .list {
-  align-items: flex-start;
-}
 .advantage .list-item {
   width: 25%;
 }
@@ -248,11 +263,7 @@ ul {
   border-radius: 0 0 2px 2px;
   box-shadow: 0px 1px 3px #00000029, 0px 1px 1px #00000024,
     0px 2px 1px #00000033;
-}
-.team-content .title {
   padding-top: 30px;
-}
-.team-content .text {
   padding-bottom: 30px;
 }
 .caption {
@@ -286,11 +297,11 @@ ul {
   margin-left: auto;
   margin-right: auto;
 } */
-.section:nth-child(odd) {
+.section:nth-child(even) {
   padding-top: 94px;
   padding-bottom: 47px;
 }
-.section:nth-child(even) {
+.section:nth-child(odd) {
   padding-top: 47px;
 }
 .section:last-child {
@@ -318,6 +329,9 @@ ul {
 .footer-list .list-item {
   margin-right: 0;
   margin-top: 9px;
+}
+.footer-list .list-item:first-child {
+  margin: 0;
 }
 .footer-link .footer-span {
   color: var(--white-color);
