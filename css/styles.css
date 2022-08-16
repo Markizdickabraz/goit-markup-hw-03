@@ -76,6 +76,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .contact-link {
+  display: inline-block;
   color: var(--text-color);
   text-decoration: none;
   font-size: 14px;
@@ -246,6 +247,9 @@ ul {
   background-color: var(--hiro-button-hover);
 }
 /* переваги */
+.advantage-list {
+  margin-top: 0;
+}
 .advantage .list-item {
   width: 25%;
 }
@@ -299,8 +303,11 @@ ul {
 } */
 .section:nth-child(even) {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
-.section:nth-child(odd),
+.section:nth-child(odd) {
+  padding-bottom: 94px;
+}
 .section:last-child {
   padding-top: 94px;
   padding-bottom: 94px;
