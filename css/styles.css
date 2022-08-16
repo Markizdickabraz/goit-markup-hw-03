@@ -299,11 +299,8 @@ ul {
 } */
 .section:nth-child(even) {
   padding-top: 94px;
-  padding-bottom: 47px;
 }
-.section:nth-child(odd) {
-  padding-top: 47px;
-}
+.section:nth-child(odd),
 .section:last-child {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -351,4 +348,18 @@ ul {
   color: var(--white-color);
   letter-spacing: 0.03em;
   display: inline-block;
+}
+/* візуальний патерн(ховає частина коду(читалка бачить!)) */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
